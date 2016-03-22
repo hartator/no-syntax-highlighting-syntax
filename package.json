@@ -13,7 +13,7 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/no-syntax-highlighting-syntax",
+  "repository": "https://github.com/hartator/no-syntax-highlighting-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
