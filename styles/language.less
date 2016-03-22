@@ -1,0 +1,237 @@
+// Language syntax highlighting
+
+.comment {
+  color: @hue-2;
+  font-style: italic;
+
+  .markup.link {
+    color: @hue-2;
+  }
+}
+
+.entity {
+
+  &.name.type {
+    color: @mono-1;
+  }
+
+  &.other.inherited-class {
+    color: @mono-1;
+  }
+}
+
+.keyword {
+  color: @mono-1;
+}
+
+.storage {
+  color: @mono-1;
+}
+
+.constant {
+  color: @mono-1;
+}
+
+.variable {
+  color: @mono-1;
+}
+
+.string {
+  color: @mono-1;
+}
+
+.punctuation {
+  &.definition {
+    &.comment {
+      color: @hue-2;
+    }
+
+    &.method-parameters,
+    &.function-parameters,
+    &.parameters,
+    &.separator,
+    &.seperator,
+    &.array {
+      color: @mono-1;
+    }
+
+    &.heading,
+    &.identity {
+      color: @mono-1;
+    }
+
+    &.bold {
+      color: @mono-1;
+      font-weight: bold;
+    }
+
+    &.italic {
+      color: @mono-1;
+      font-style: italic;
+    }
+  }
+
+  &.section {
+    &.embedded {
+      color: @mono-1;
+    }
+
+    &.method,
+    &.class,
+    &.inner-class {
+      color: @mono-1;
+    }
+  }
+}
+
+.support {
+  &.class {
+    color: @mono-1;
+  }
+
+  &.type {
+    color: @mono-1;
+  }
+
+  &.function  {
+    color: @mono-1;
+
+    &.any-method {
+      color: @mono-1;
+    }
+  }
+}
+
+.entity {
+  &.name.function {
+    color: @mono-1;
+  }
+
+  &.name.class,
+  &.name.type.class {
+    color: @mono-1;
+  }
+
+  &.name.section {
+    color: @mono-1;
+  }
+
+  &.name.tag {
+    color: @mono-1;
+  }
+
+  &.other.attribute-name {
+    color: @mono-1;
+
+    &.id {
+      color: @mono-1;
+    }
+  }
+}
+
+.meta {
+  &.class {
+    color: @mono-1;
+
+    &.body {
+      color: @mono-1;
+    }
+  }
+
+  &.method-call,
+  &.method {
+    color: @mono-1;
+  }
+
+  &.definition {
+    &.variable {
+      color: @mono-1;
+    }
+  }
+
+  &.link {
+    color: @mono-1;
+  }
+
+  &.require {
+    color: @mono-1;
+  }
+
+  &.selector {
+    color: @mono-1;
+  }
+
+  &.separator {
+    background-color: #373b41;
+    color: @mono-1;
+  }
+
+  &.tag {
+    color: @mono-1;
+  }
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.none {
+  color: @mono-1;
+}
+
+.invalid {
+  &.deprecated {
+    color: @syntax-deprecated-fg !important;
+    background-color: @syntax-deprecated-bg !important;
+  }
+  &.illegal {
+    color: @syntax-illegal-fg !important;
+    background-color: @syntax-illegal-bg !important;
+  }
+}
+
+// Languages -------------------------------------------------
+
+.markup {
+  &.bold {
+    color: @mono-1;
+    font-weight: bold;
+  }
+
+  &.changed {
+    color: @hue-3;
+  }
+
+  &.deleted {
+    color: @hue-5;
+  }
+
+  &.italic {
+    color: @hue-3;
+    font-style: italic;
+  }
+
+  &.heading {
+    color: @hue-5;
+
+    .punctuation.definition.heading {
+      color: @hue-2;
+    }
+  }
+
+  &.link {
+    color: @hue-3;
+  }
+
+  &.inserted {
+    color: @hue-4;
+  }
+
+  &.quote {
+    color: @hue-6;
+  }
+
+  &.raw {
+    color: @hue-4;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "no-syntax-highlighting-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "Disable syntax highlighting, awesomely. Will still highlight comments and actual without making less noticeable.",
+  "keywords": [
+    "disable",
+    "no",
+    "highlighting",
+    "highlight",
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/no-syntax-highlighting-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
