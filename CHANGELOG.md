@@ -9,4 +9,7 @@
 
 ## 0.2.4
 * No more italics for comments
-*
+* Performance improvements
+
+## 0.2.6
+* Fix package description
