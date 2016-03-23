@@ -3,3 +3,10 @@
 
 ## 0.2.0
 * Update data for publication on atom.io
+
+## 0.2.2
+* Minor package update
+
+## 0.2.4
+* No more italics for comments
+*
