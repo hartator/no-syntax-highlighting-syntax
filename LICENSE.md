@@ -1,4 +1,4 @@
-Copyright (c) 2015 Julian Khaleghy
+Copyright (c) 2016 Julian Khaleghy
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
