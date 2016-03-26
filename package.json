@@ -1,7 +1,7 @@
 {
   "name": "no-syntax-highlighting-syntax",
   "theme": "syntax",
-  "version": "0.2.6",
+  "version": "0.2.8",
   "description": "Disable syntax highlighting. Will still highlight comments in a different color - clean blue - without making them less noticeable.",
   "keywords": [
     "disable",
