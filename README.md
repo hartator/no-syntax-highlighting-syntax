@@ -2,9 +2,9 @@
 
 Disable Atom.io syntax highlighting.
 
-Will still highlight comments in a different color - clean blue - without making them less noticeable.
+Will still highlight code comments in a different color - clean blue - without making them less noticeable. Compared to just switching to "Plain Text", every Atom.io language-related features will be also still working. Including language completions, language snippets, language closure/bloc detections, auto-indent, etc.
 
-Compared to just switching to "Plain Text", every Atom.io language-related features will be still working. Including language completions, language snippets, language closure/bloc detections, auto-indent, etc.
+Inspired by some articles stating that disabling syntax highlighting is actually a good thing. It should lower distractions and allow more focus on the meaning of the code. I wanted to try this in Atom.io.
 
 # Screenshot
 
