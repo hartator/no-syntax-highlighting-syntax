@@ -1,72 +1,72 @@
 // Language syntax highlighting
 
-.comment {
+.syntax--comment {
   color: @hue-2;
-  .markup {
+  .syntax--markup {
     color: @hue-2;
   }
 }
 
-.entity {
+.syntax--entity {
   color: @mono-1;
 }
 
-.keyword {
+.syntax--keyword {
   color: @mono-1;
 }
 
-.storage {
+.syntax--storage {
   color: @mono-1;
 }
 
-.constant {
+.syntax--constant {
   color: @mono-1;
 }
 
-.variable {
+.syntax--variable {
   color: @mono-1;
 }
 
-.string {
+.syntax--string {
   color: @mono-1;
 }
 
-.punctuation {
+.syntax--punctuation {
   color: @mono-1;
-  &.definition {
-    &.comment {
+  &.syntax--definition {
+    &.syntax--comment {
       color: @hue-2;
     }
   }
 }
 
-.support {
+.syntax--support {
   color: @mono-1;
 }
 
-.entity {
+.syntax--entity {
   color: @mono-1;
 }
 
-.meta {
+.syntax--meta {
   color: @mono-1;
 }
 
-.none {
+.syntax--none {
   color: @mono-1;
 }
 
-.invalid {
-  &.deprecated {
+.syntax--invalid {
+  &.syntax--deprecated {
     color: @syntax-deprecated-fg !important;
     background-color: @syntax-deprecated-bg !important;
   }
-  &.illegal {
+  &.syntax--illegal {
     color: @syntax-illegal-fg !important;
     background-color: @syntax-illegal-bg !important;
   }
 }
 
-.markup {
+.syntax--markup {
   color: @mono-1;
 }
